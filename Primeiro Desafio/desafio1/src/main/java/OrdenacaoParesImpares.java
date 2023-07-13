@@ -4,7 +4,10 @@ public class OrdenacaoParesImpares {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Insira um valor: ");
         int n = scanner.nextInt();
+
         List<Integer> pares = new ArrayList<>();
         List<Integer> impares = new ArrayList<>();
 
